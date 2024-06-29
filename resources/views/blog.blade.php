@@ -29,7 +29,7 @@
     <div class="ct-container" data-vertical-spacing="top:bottom">
         <section>
             <div class="entries" data-archive="default" data-layout="simple" data-cards="boxed" data-hover="zoom-out">
-
+            @if(count($blogs) < 0) 
                 @foreach ($blogs as $post)
                     <article id="post-8770"
                         class="entry-card post-8770 post type-post status-publish format-standard has-post-thumbnail hentry category-142 category-17 category---ar">
@@ -67,6 +67,11 @@
                     </article>
                 @endforeach
 
+                @else 
+        لا توجد نتائج
+
+                @endif
+
 
 
             </div>
@@ -74,9 +79,9 @@
 
 
         </section>
-
         <div class="custom-pagination">
-            @if ($blogs->onFirstPage())
+           @if(count($blogs) > 0) 
+           @if ($blogs->onFirstPage())
                 <span>السابق</span>
             @else
                 <a href="{{ $blogs->previousPageUrl() }}" rel="prev">السابق</a>
@@ -89,7 +94,9 @@
             @else
                 <span>التالي</span>
             @endif
+           @endif
         </div>
+
 
     </div>
 

@@ -76,14 +76,14 @@ class FrontendController extends Controller
     }
 
     public function blog($id) {
-        $blogs = Lpost::where('category_id', $id)->paginate(1);
+        $blogs = Lpost::where('category_id', $id)->paginate(10);
         if($blogs->isEmpty()) abort(404);
          return view('blog', compact('blogs'));
      }
 
      public function search(Request $request) {
         $query = $request->input('s');
-        $blogs = Lpost::where('title', 'like', '%' . $query . '%')->get();
+        $blogs = Lpost::where('title', 'like', '%' . $query . '%')->paginate(10);
         return view('blog', compact('blogs', 'query'));
     }
 
