@@ -72,7 +72,7 @@
                                         <div class="elementor-element elementor-element-6e0db40 ekit-equal-height-enable elementor-invisible elementor-widget elementor-widget-elementskit-icon-box" data-id="6e0db40" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;bounceInDown&quot;}" data-widget_type="elementskit-icon-box.default">
                                             <div class="elementor-widget-container">
                                                 <div class="ekit-wid-con"> <!-- link opening -->
-                                                    <a href="https://cndh.org.dz/%d8%a7%d9%84%d9%84%d8%ac%d9%86%d8%a9-%d8%a7%d9%84%d8%af%d8%a7%d8%a6%d9%85%d8%a9-%d9%84%d9%84%d8%b4%d8%a4%d9%88%d9%86-%d8%a7%d9%84%d9%82%d8%a7%d9%86%d9%88%d9%86%d9%8a%d8%a9/" target="_self" rel="" class="ekit_global_links">
+                                                    <a href="/lijan/{{$cmt->id}}" target="_self" rel="" class="ekit_global_links">
                                                         <!-- end link opening -->
 
                                                         <div class="elementskit-infobox text-center text-center icon-top-align elementor-animation- gradient-active hover_from_top">

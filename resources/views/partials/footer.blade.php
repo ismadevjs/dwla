@@ -181,7 +181,7 @@ class="ekit-template-content-markup ekit-template-content-footer ekit-template-c
 </style>
 <div data-elementor-type="wp-post" data-elementor-id="404" class="elementor elementor-404">
 
-    <section
+    <section id="footer"
         class="elementor-section elementor-top-section elementor-element elementor-element-606a60f ct-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="606a60f" data-element_type="section"
         data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1474,3 +1474,13 @@ src="data:text/javascript;base64,CgovKiBQb3N0IENhcm91c2VsIExpdGUgc2NyaXB0czogKi8
 </script>
 
 @stack('scripts')
+<style>
+    #footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #f8f9fa; /* Adjust background color as needed */
+        padding: 20px; /* Adjust padding as needed */
+        z-index: 1000; /* Adjust z-index as needed */
+    }
+</style>

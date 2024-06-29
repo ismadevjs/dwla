@@ -3848,7 +3848,7 @@
 
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-728"
                                         role="none"><a
-                                            href="https://cndh.org.dz/%d8%a7%d9%84%d9%84%d8%ac%d9%86%d8%a9-%d8%a7%d9%84%d8%af%d8%a7%d8%a6%d9%85%d8%a9-%d9%84%d9%84%d8%b4%d8%a4%d9%88%d9%86-%d8%a7%d9%84%d9%82%d8%a7%d9%86%d9%88%d9%86%d9%8a%d8%a9/"
+                                            href=""
                                             class="ct-menu-link" role="menuitem">اللجنة الدائمة للشؤون القانونية</a>
                                     </li>
 

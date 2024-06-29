@@ -2474,7 +2474,7 @@
         <header class="entry-header ct-container">
             <h1 class="page-title"
                 title="مشاركة المجلس الوطني لحقوق الإنسان في ندوة تحاضر عن بعد حول عرض نقاط التواصل الوطنية لمنظمة التعاون الاقتصادي والتنمية OCDE من أجل نظام عمل مسؤول للمؤسسات."
-                itemprop="headline">أعضاء المجلس</h1>
+                itemprop="headline">الأعضاء</h1>
 
         </header>
     </div>
